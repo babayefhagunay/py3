@@ -2,23 +2,10 @@
 # mylist=[-4,-16,0,1,4,5,9,16,25,36,49,64,81,100]
 
 
-# import math
-# def kokAlma(mylist):
-#     newlist=[]
-#     for i in mylist:
-#         if i > 0: 
-#             square_root = math.sqrt(i)
-#             if square_root.is_integer():
-#                 newlist.append(i)
-#     return newlist
-# mylist = [-4, -16, 0, 1, 4, 5, 9, 16, 25, 36, 49, 64, 81, 100]
-# print(kokAlma(mylist))
 
-# ve ya
 
-# import math
 # mylist = [-4, -16, 0, 1, 4, 5, 9, 16, 25, 36, 49, 64, 81, 100]
-# print(list(filter(lambda x: x > 0 and math.sqrt(x).is_integer(), mylist)))
+# print(list(filter(lambda x: x > 0 and (x**0.5).is_integer(), mylist)))
 
 
 
